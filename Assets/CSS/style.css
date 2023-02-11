@@ -58,6 +58,7 @@ header {
   text-align: center;
   display: flex;
   flex-direction: column;
+  text-align: left;
 }
 
 .card-footer::before {
@@ -88,6 +89,7 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  margin-top: 35px;
 }
 
 button[disabled] {
@@ -120,6 +122,23 @@ button[disabled] {
   overflow: hidden;
 }
 
+/* My custom CSS for the input and label fields*/
+.card-footer #passwordLength{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.card-footer label{
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+
+/*Just the media queries that were alreday here*/
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
@@ -138,7 +157,3 @@ button[disabled] {
   }
 }
 
-/* My custom CSS*/
-.charChecklist {
-  display: flex;
-}
