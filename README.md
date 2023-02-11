@@ -10,4 +10,4 @@ Git Page URL: https://alex-sorbala.github.io/password-generator/
 
 
 ## Deployed Page Screenshoot:
-![Git Page Screenshoot](./assets/images/Screenshot_password_generator.png)
+![Git Page Screenshoot](Screenshot_password_generator.png)
